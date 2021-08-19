@@ -1,0 +1,128 @@
+:root {
+  --main-title-color: white;
+  --second-title-color: #2f303a;
+  --third-title-color: #f5f4fa;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+.web {
+  color: #2196f3;
+}
+.logo {
+  font-family: "Oleo Script", cursive;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3%;
+  color: #212121;
+  text-decoration: none;
+}
+
+.navigation-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 3%;
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.project-name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 6%;
+  color: var(--second-text-color);
+}
+
+.footer-section {
+  background-color: #2f303a;
+}
+.adress-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: #ffffff;
+}
+.footer-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: var(--second-text-color);
+}
+.logo-footer {
+  font-family: "Oleo Script", cursive;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3%;
+  color: #ffffff;
+  text-decoration: none;
+}
